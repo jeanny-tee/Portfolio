@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>JAMs Journal</title>
+
+	<!-- External CSS -->
+        <link rel="stylesheet" href="./index.css"/>
+
+	<!-- Bootstrap Link -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<!-- Google Font Link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+	<!-- Font awesome -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+
+
+</head>
+<body>
+	<!-- Nav Bar section -->
+	<div class="container-fluid fixed-top">
+		<div class="row">
+			<ul class="nav">
+				<div class="col-lg-3 col-md-3 col-sm-2 pl-lg-5 pl-sm-0 d-inline-flex d-sm-inline-flex">
+					<li class="nav-logo">
+						<img src="images/logoimage.jpg" class="img-fluid">
+					</li>
+				</div>
+			 	<div class="col-lg-9 col-md-9 col-sm-10 justify-content-end d-inline-flex">
+			  		<li class="nav-item">
+			    		<a class="nav-link" href="./index.html">Home</a>
+			  		</li>
+			  		<li class="nav-item">
+			    		<a class="nav-link" href="./index.html#aboutMe">About Me</a>
+			  		</li>
+			  		<li class="nav-item">
+			    		<a class="nav-link" href="#">Journal</a>
+			  		</li>
+			  		<li class="nav-item">
+			    		<a class="nav-link" href="./Contact.html">Contact Me</a>
+			  		</li>
+				</div>
+			</ul>
+		</div>
+		
+	</div>
+	<!-- Nav Bar section end-->
+<section>
+	<!-- Main Content Section Start -->
+    <div class="journal container-fluid text-center">
+
+        <div class="row">
+
+            <!-- Side Navbar Section Start -->
+            <div class="card col-xl-2 d-none d-xl-block p-0">
+                <div class="accordion" id="accordionExample">
+
+                    <!-- Home Section Start-->
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Home
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul class="text-justify" style="list-style: none;">
+                                    <li><a href="./index.html#aboutMe">About Me</a></li>
+                                    <li><a href="./index.html#myWork">My Experiences</a></li>
+                                    <li><a href="./index.html#OntheJob">On The Job</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Home Section End-->
+
+                    <!-- Journal Section Start-->
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Journal
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul class="text-justify" style="list-style: none;">
+                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="#gallery">Gallery</a></li>
+                                    <li><a href="#featured-content">Featured Content</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contact Section End -->
+
+                    <!-- Tools Section Start -->
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Contact Me
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul class="text-justify" style="list-style: none; text-decoration: none;">
+                                    <li><a href="./Contact.html">Contact Form</a></li>
+                                    <li><a href="./Contact.html#social">Social</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tools Section End -->
+
+                </div>
+            </div>
+            <!-- Side Navbar Section End -->
+
+            <!-- Side Content Section Start -->
+            <div class="col-xl-10">
+            	<div id="blog" class="container-fluid banner">
+                    <img src="./images/blogbanner.png" class="img-fluid" alt="Blog Banner">
+                </div> 
+                <!-- Title Head -->
+                 <div class="container-fluid workTitlehead" data-aos="fade-up">
+  					<div class="row justify-content-center">
+  						<h1>My Journal</h1>
+  					</div>
+  				</div>
+                <!-- Blog Section Start -->
+                <div class="container-fluid min-vh-100 p-3 p-md-5" data-aos="fade-up">
+                	<div class="row">
+                		<!-- Blog article -->
+                		<div class="text-left">
+                			<article>
+                    			<h2>Dealing With Anxiety</h2>
+                    			<p class="card-text"><small class="text-muted">Published: February 2023</small></p>
+                            
+								<p>With the news about big Tech companies laying off here and there, I can't help but feel anxious. Am I still on the right track in pursuing my career goals? What if the company I work for also starts laying off soon? Will I be skilled enough to compete and stand out in the job market? All these questions suddenly keep coming into my head. I'm glad I heard the church's Sunday message this morning—such a great reminder of how important it is to walk by faith. I recalled God's work in my life, how he remained faithful all this time, and I'm suddenly at peace.</p>
+			
+								<p>The pastor shared an incredible story about how a songwriter had to write 100 a year for two years before the publisher chose ONE song. I remembered my journey when I got back into the workforce after giving birth. Remote work was not a norm then, and getting my first gig was not easy. I had to send five applications a day for over a month. That's over 100 intentional applications sent until ONE employer took a chance on me. I knew God led me to the right door. I am genuinely grateful for my time at Lifestyle Barn. My experience there taught me the foundational skills to thrive in remote work and the tech industry. It was my entryway to the world of Saas products and has led me to Zapier.</p>
+
+								<p>This story isn't my "How-I-got-my-dream-job" success story but rather a story of how victorious I am with God and how he has carried me through. No one knows what the future holds. You may be at the peak of your career or business now, but all these things can change instantly. Your job, your business, or whatever your source of security is can be taken away from you, but we can rest in the fact that we have an unchanging God. We can always trust that he will take us wherever we need to be.</p>
+			
+								<p>We all have life battles, and whatever you may be going through right now, I encourage you to look back at God's track record and how HE has sustained you. You may also be one of those who ask, what if there's none? You might say, I've been suffering all my life, yet where is God? or say I never felt his presence. I encourage you to seek him. These challenging times may be the time for you to seek him and know who he is. It will be worth your time. Start by listening to his word. Attend a local church or listen to messages online, like this message below:</p>
+							</article>
+                        </div>
+                        <!-- Blog article End-->
+                        <div class="iframe-container">
+                        	<iframe width="560" height="315" src="https://www.youtube.com/embed/xucxV1NJCOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                 </div> 
+
+
+                <!-- My Gallery Section -->
+                <!-- Title Head -->
+                <div id="gallery" class="container-fluid workTitlehead" data-aos="fade-up">
+  					<div class="row justify-content-center">
+  						<h1>My Gallery</h1>
+  					</div>
+  				</div>
+  				<!-- Title Head End -->
+                <!-- Carousel Section Start -->
+                <div class="title text-left pt-3" data-aos="fade-up">
+                	<h2>Featured</h2>
+                </div>
+                
+                <div class="container" data-aos="fade-up">
+                	<div class="row d-none d-md-block">
+                		<div class="col work-carousel">
+                         <div id="carouselExampleFade" class="carousel slide carousel-fade min-vh-100" data-ride="carousel">
+						  	<div class="carousel-inner">
+							    <div class="carousel-item active">
+							      	<img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t39.30808-6/329570004_1841077602937241_4430183480298414680_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHR6xiZQlHNGshzC14EPz-BdkgB-kWrToR2SAH6RatOhHYqRcTv1bz1usjzcDrMrUE_HhPwwan_cbBevoPP7siE&_nc_ohc=aa5xjLQtihoAX_-kO4q&tn=ntnjCa-8MoTmTHFq&_nc_ht=scontent.fmnl17-5.fna&oh=00_AfDlDmG_ID959_CyZifbHedRbB8_OIXasWg4ckOnSi1jgw&oe=640014D1" class="d-block w-100" alt="Austin Retreat">
+							    </div>
+							    <div class="carousel-item">
+							      	<img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/280709056_5780389981977581_3377915778024039901_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFMITI183WlOiuZ1jlxWhozsCwJIfTUqiywLAkh9NSqLHcngnpkXvJcwRJdcESKoGR74uicUbxoLy32-pGEAfvc&_nc_ohc=Cv2L0vTCQzIAX_o6DcG&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfDX0U2HKONv5H1CmS2hmcsaaF9fi7RsxvFaHD1kSnaNew&oe=63FFF1D3" class="d-block w-100" alt="Team Hike">
+							    </div>
+							    <div class="carousel-item">
+							      	<img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.6435-9/82832391_3213991055284166_3943045423886761984_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFZEZn6JGUu_2vTGzqlfF0ebm3VFcXFsEVubdUVxcWwRclpWfT6wtEGuIwdfxclPy0XdQ9AM07oiL0RtBppB3vd&_nc_ohc=sLv4HSLq6xcAX8IskOJ&_nc_ht=scontent.fmnl17-2.fna&oh=00_AfAbhlgd_1hbdRYznx9I2ob1c1alL3nJruGtcnZPV2MK9g&oe=6422B319" class="d-block w-100" alt="Florida Retreat">
+							    </div>
+							  </div>
+							  <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+							    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							  </button>
+							  <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							  </button>
+							</div>
+						</div>	
+                    </div>
+                </div>
+            <!-- Carousel Section End -->
+
+            <!-- Content Gallery -->
+            <div id="featured-content" class="title text-left pt-3" data-aos="fade-up">
+                <h2>Featured Content</h2>
+            </div>
+             <!-- TikTok Gallery Start -->
+                <div class="min-vh-100">
+
+                    <!-- Video 1-->
+                    <div class="d-lg-flex justify-content-center pl-lg-5 pr-lg-5" data-aos="fade-up">
+
+                        <!-- Tiktok Start -->
+                        <div class="col-xl-4">
+                           
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@jeannysy/video/7078639320608820507" data-video-id="7078639320608820507" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@jeannysy" href="https://www.tiktok.com/@jeannysy?refer=embed">@jeannysy</a> Applying for a customer support job at a tech company but you don&#39;t have tech support experience? Here&#39;s an interview tip <a title="tiktokph" target="_blank" href="https://www.tiktok.com/tag/tiktokph?refer=embed">#tiktokph</a> <a title="tiktokswela" target="_blank" href="https://www.tiktok.com/tag/tiktokswela?refer=embed">#tiktokswela</a> <a title="interviewtips" target="_blank" href="https://www.tiktok.com/tag/interviewtips?refer=embed">#interviewtips</a> <a title="techtoktips" target="_blank" href="https://www.tiktok.com/tag/techtoktips?refer=embed">#techtoktips</a> <a title="remotejobsph" target="_blank" href="https://www.tiktok.com/tag/remotejobsph?refer=embed">#remotejobsph</a> <a title="virtualassistant" target="_blank" href="https://www.tiktok.com/tag/virtualassistant?refer=embed">#virtualassistant</a> <a title="womaninsaas" target="_blank" href="https://www.tiktok.com/tag/womaninsaas?refer=embed">#womaninsaas</a> <a title="wfhjobs" target="_blank" href="https://www.tiktok.com/tag/wfhjobs?refer=embed">#wfhjobs</a> <a title="remotework" target="_blank" href="https://www.tiktok.com/tag/remotework?refer=embed">#remotework</a> <a title="workfromhome" target="_blank" href="https://www.tiktok.com/tag/workfromhome?refer=embed">#workfromhome</a> <a target="_blank" title="♬ original sound  - Jeanny Sy" href="https://www.tiktok.com/music/original-sound-Jeanny-Sy-7078639391396170523?refer=embed">♬ original sound  - Jeanny Sy</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                           
+                        </div>
+                        <!-- HTML Card End -->
+
+                        <!-- Bootstrap Card Start -->
+                        <div class="col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+                            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@jeannysy/video/7182430391851158810" data-video-id="7182430391851158810" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@jeannysy" href="https://www.tiktok.com/@jeannysy?refer=embed">@jeannysy</a> My not so instant noodles! <a title="jamathome" target="_blank" href="https://www.tiktok.com/tag/jamathome?refer=embed">#jamathome</a> <a title="jeffandjamskitchen" target="_blank" href="https://www.tiktok.com/tag/jeffandjamskitchen?refer=embed">#jeffandjamskitchen</a> <a title="mealprep" target="_blank" href="https://www.tiktok.com/tag/mealprep?refer=embed">#mealprep</a> <a title="foodhacks" target="_blank" href="https://www.tiktok.com/tag/foodhacks?refer=embed">#foodhacks</a> <a title="ulamideas" target="_blank" href="https://www.tiktok.com/tag/ulamideas?refer=embed">#ulamideas</a> <a title="pinoyfoodie" target="_blank" href="https://www.tiktok.com/tag/pinoyfoodie?refer=embed">#pinoyfoodie</a> <a title="filipinofood" target="_blank" href="https://www.tiktok.com/tag/filipinofood?refer=embed">#filipinofood</a> <a title="lutongbahay" target="_blank" href="https://www.tiktok.com/tag/lutongbahay?refer=embed">#lutongbahay</a> <a title="healthyrecipes" target="_blank" href="https://www.tiktok.com/tag/healthyrecipes?refer=embed">#healthyrecipes</a> <a title="foodlibraryph" target="_blank" href="https://www.tiktok.com/tag/foodlibraryph?refer=embed">#foodlibraryph</a> <a title="yummyph" target="_blank" href="https://www.tiktok.com/tag/yummyph?refer=embed">#yummyph</a> <a title="wheninmanila" target="_blank" href="https://www.tiktok.com/tag/wheninmanila?refer=embed">#wheninmanila</a> <a title="itsmorefuninthephilippines" target="_blank" href="https://www.tiktok.com/tag/itsmorefuninthephilippines?refer=embed">#itsmorefuninthephilippines</a> <a title="healthyrecipes" target="_blank" href="https://www.tiktok.com/tag/healthyrecipes?refer=embed">#healthyrecipes</a> <a title="healthycooking" target="_blank" href="https://www.tiktok.com/tag/healthycooking?refer=embed">#healthycooking</a> <a title="eatyourgreens" target="_blank" href="https://www.tiktok.com/tag/eatyourgreens?refer=embed">#eatyourgreens</a> <a title="wholefoods" target="_blank" href="https://www.tiktok.com/tag/wholefoods?refer=embed">#wholefoods</a> <a title="whatieatinaday" target="_blank" href="https://www.tiktok.com/tag/whatieatinaday?refer=embed">#whatieatinaday</a> <a title="kaintayo" target="_blank" href="https://www.tiktok.com/tag/kaintayo?refer=embed">#kaintayo</a> <a title="foodphotography" target="_blank" href="https://www.tiktok.com/tag/foodphotography?refer=embed">#foodphotography</a> <a title="weightloss" target="_blank" href="https://www.tiktok.com/tag/weightloss?refer=embed">#weightloss</a> <a title="easyrecipes" target="_blank" href="https://www.tiktok.com/tag/easyrecipes?refer=embed">#easyrecipes</a> <a title="filipinofoodmovement" target="_blank" href="https://www.tiktok.com/tag/filipinofoodmovement?refer=embed">#filipinofoodmovement</a> <a title="lutongbahay" target="_blank" href="https://www.tiktok.com/tag/lutongbahay?refer=embed">#lutongbahay</a> <a title="lutongpinoy" target="_blank" href="https://www.tiktok.com/tag/lutongpinoy?refer=embed">#lutongpinoy</a> <a title="panlasangpinoy" target="_blank" href="https://www.tiktok.com/tag/panlasangpinoy?refer=embed">#panlasangpinoy</a> <a title="forkspoonmanila" target="_blank" href="https://www.tiktok.com/tag/forkspoonmanila?refer=embed">#forkspoonmanila</a> <a title="foodstylingph" target="_blank" href="https://www.tiktok.com/tag/foodstylingph?refer=embed">#foodstylingph</a> <a target="_blank" title="♬ original sound  - Jeanny Sy" href="https://www.tiktok.com/music/original-sound-Jeanny-Sy-7182430415528545050?refer=embed">♬ original sound  - Jeanny Sy</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                        </div>
+                        <!-- Bootstrap Card End -->
+
+                        <!-- Node JS Server Card Start -->
+                        <div class=" col-xl-4 mb-5 mb-xl-0">
+                            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@jeannysy/video/7195962386237410586" data-video-id="7195962386237410586" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@jeannysy" href="https://www.tiktok.com/@jeannysy?refer=embed">@jeannysy</a> Team day at a tech company retreat! Ibang level na team building. Trip to the US from PH <a title="tiktokjobsph" target="_blank" href="https://www.tiktok.com/tag/tiktokjobsph?refer=embed">#tiktokjobsph</a> <a title="remoteworkph" target="_blank" href="https://www.tiktok.com/tag/remoteworkph?refer=embed">#remoteworkph</a> <a title="remotework" target="_blank" href="https://www.tiktok.com/tag/remotework?refer=embed">#remotework</a> <a title="lifeintech" target="_blank" href="https://www.tiktok.com/tag/lifeintech?refer=embed">#lifeintech</a> <a title="companyretreat" target="_blank" href="https://www.tiktok.com/tag/companyretreat?refer=embed">#companyretreat</a> <a title="freelancerph" target="_blank" href="https://www.tiktok.com/tag/freelancerph?refer=embed">#freelancerph</a> <a title="virtualassistantph" target="_blank" href="https://www.tiktok.com/tag/virtualassistantph?refer=embed">#virtualassistantph</a> <a title="tiktokph" target="_blank" href="https://www.tiktok.com/tag/tiktokph?refer=embed">#tiktokph</a> <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage?refer=embed">#foryoupage</a> <a target="_blank" title="♬ The Process - LAKEY INSPIRED" href="https://www.tiktok.com/music/The-Process-6761016245782349825?refer=embed">♬ The Process - LAKEY INSPIRED</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                        </div>
+                        <!-- Node JS Server Card End -->
+
+                    </div>
+                    <!-- Other Projects Container End -->
+
+                </div>
+
+
+        </div>
+        <!-- Side Content Section End -->
+    </div>
+    </div>	
+	</section>
+	<!-- My Journal End -->
+	<!-- Footer Section -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col">
+					<h4>About Me</h4>
+					<ul>
+						<li><a href="./index.html#aboutMe">About Me</a></li>
+						<li><a href="./index.html#myWork">My Work Experience</a></li>
+						<li><a href="./index.html#OntheJob">On The Job</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Journal</h4>
+					<ul>
+						<li><a href="#blog">My Blogs</a></li>
+						<li><a href="#gallery">My Gallery</a></li>
+						<li><a href="#featured-content">Featured Content</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Contact</h4>
+					<ul>
+						<li><a href="./Contact.html">Contact Form</a></li>
+						<li><a href="./Contact.html">Meet me on Social</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Follow Me</h4>
+					<div class="social-links">
+						<a href="https://www.facebook.com/jeanny.tee"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/jeannytee"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@jeannysy"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.linkedin.com/in/jeanny-sy"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</footer>
+	<!-- Footer Section End-->
+
+</body>
+<!-- JS Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+	<!-- AOS script -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  	<script>
+    	AOS.init({
+    		duration: 3000
+    	});
+  	</script>
+  </html>
